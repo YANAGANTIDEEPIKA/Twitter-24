@@ -1,0 +1,81 @@
+.ramya2 {
+  height: 90vh; /* Reduced viewport height */
+  margin-bottom: 200px;
+}
+
+.lavanya2 {
+  max-width: 500px; /* Increased max-width for the container */
+  padding: 40px; /* Increased padding for more spacing */
+  background-color: #fffcfc;
+  border-radius: 12px; /* Increased border radius for a more rounded appearance */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+}
+
+.lavanya2 h1 {
+  font-size: 32px; /* Increased font size for the heading */
+  text-align: center;
+  margin-bottom: 3px; /* Increased margin */
+}
+
+.lavanya2 form > .form-group {
+  margin-bottom: 15px; /* Increased margin between form groups */
+}
+
+.lavanya2 form > .form-group label {
+  font-weight: bold;
+  margin-bottom: 10px; /* Adjusted margin */
+  display: block;
+}
+
+.lavanya2 input[type="text"],
+.lavanya2 input[type="email"],
+.lavanya2 input[type="password"],
+.lavanya2 input[type="number"] {
+  width: 100%;
+  padding: 7px; /* Increased padding for inputs */
+  border: 1px solid #ced4da;
+  border-radius: 6px; /* Slightly increased border radius */
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Background color for input fields */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for input fields */
+  transition: border-color 0.3s;
+}
+
+.lavanya2 input[type="text"]:focus,
+.lavanya2 input[type="email"]:focus,
+.lavanya2 input[type="password"]:focus,
+.lavanya2 input[type="number"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.lavanya2 button {
+  width: 100%;
+  padding: 10px; /* Increased padding for button */
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px; /* Slightly increased border radius */
+  color: #ffffff;
+  font-size: 20px; /* Increased font size for button text */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lavanya2 button:hover {
+  background-color: #0056b3;
+}
+
+.lavanya2 p {
+  text-align: center;
+  margin-top: 25px; /* Adjusted top margin */
+}
+
+.lavanya2 a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.lavanya2 a:hover {
+  color: #0056b3;
+}

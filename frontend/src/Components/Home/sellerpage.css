@@ -1,0 +1,137 @@
+/* Container for the seller page */
+.seller-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Header styling */
+.seller-header {
+  width: 100%;
+  padding: 20px;
+  background-color: #1DA1F2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+/* Styling for header buttons */
+.seller-header-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensure buttons take full width on mobile */
+  margin-bottom: 10px; /* Space between buttons on mobile */
+}
+
+.seller-header-button:hover {
+  background-color: #0056b3;
+}
+
+.profile-button {
+  background-color: #007bff;
+}
+
+/* Content styling */
+.seller-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Grid for images */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Individual image item */
+.image-item {
+  width: 100%;
+  max-width: 200px;
+  margin: 2px;
+  padding: 2px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-details {
+  margin-top: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Styling for text details */
+.description {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.status {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Profile name styling */
+.seller-profile-name {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  z-index: 10;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .seller-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .seller-header-button {
+    width: 100%;
+    margin-bottom: 10px; /* Space between buttons on mobile */
+  }
+
+  .image-item {
+    width: 100%; /* Make each item take full width on mobile */
+  }
+}

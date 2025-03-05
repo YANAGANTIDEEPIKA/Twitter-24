@@ -1,0 +1,88 @@
+.admin-container {
+  padding: 20px;
+}
+
+.admin-search {
+  width: 100%;
+  max-width: 500px; /* Adjust max-width for search input */
+  margin: 0 auto 20px auto;
+}
+
+.table-responsive {
+  margin-top: 20px;
+}
+
+.admin-img {
+  max-width: 100px; /* Adjust max-width for images */
+  height: auto;
+}
+
+.admin-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.admin-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.admin-button-delete {
+  background-color: #ff6961; /* Red color for delete button */
+  color: white;
+}
+
+.admin-container {
+  padding: 20px;
+}
+
+.admin-search {
+  max-width: 300px;
+  margin: 0 auto 20px auto;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.admin-table th, 
+.admin-table td {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #dee2e6; /* Adding border to table cells */
+  padding: 0.75rem;
+}
+
+.admin-table thead th {
+  border-bottom: 2px solid #dee2e6;
+  background-color: #343a40;
+  color: white;
+}
+
+.admin-table {
+  border-collapse: collapse;
+}
+
+.admin-img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.admin-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-button {
+  margin-right: 5px;
+}
+
+.admin-button-delete {
+  margin-top: 10px;
+}
+
+.admin-table {
+  border: 2px solid #343a40; /* Adding outer border to the table */
+}

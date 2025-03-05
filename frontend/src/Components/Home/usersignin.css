@@ -1,0 +1,80 @@
+.ramya3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+    
+  .lavanya3 {
+    max-width: 500px; /* Increased max-width for the container */
+    padding: 40px; /* Increased padding for more spacing */
+    background-color: #fffcfc;
+    border-radius: 12px; /* Increased border radius for a more rounded appearance */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  }
+    
+  .lavanya3 h1 {
+    font-size: 32px; /* Increased font size for the heading */
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+  }
+    
+  .lavanya3 form > div {
+    margin-bottom: 25px; /* Increased margin between form groups */
+  }
+    
+  .lavanya3 form > div label {
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjusted margin */
+    display: block;
+  }
+    
+  .lavanya3 input[type="email"],
+  .lavanya3 input[type="password"] {
+    width: 100%;
+    padding: 11px; /* Increased padding for inputs */
+    border: 1px solid #ced4da;
+    border-radius: 6px; /* Slightly increased border radius */
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Background color for input fields */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for input fields */
+    transition: border-color 0.3s;
+  }
+    
+  .lavanya3 input[type="email"]:focus,
+  .lavanya3 input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+    
+  .lavanya3 button {
+    width: 100%;
+    padding: 10px 16px; /* Adjusted padding for button */
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px; /* Slightly increased border radius */
+    color: #ffffff;
+    font-size: 20px; /* Increased font size for button text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+    
+  .lavanya3 button:hover {
+    background-color: #0056b3;
+  }
+    
+  .lavanya3 p {
+    text-align: center;
+    margin-top: 25px; /* Adjusted top margin */
+  }
+    
+  .lavanya3 a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+    
+  .lavanya3 a:hover {
+    color: #0056b3;
+  }
+  

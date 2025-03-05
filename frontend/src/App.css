@@ -1,0 +1,66 @@
+/* App.css */
+
+/* Global styles for the entire application */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background for the entire page */
+}
+
+/* Styling for the card-like authentication form */
+.ramya6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.lavanya6 {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+  text-align: center; /* Center align contents */
+  margin: auto; /* Center the card horizontally */
+}
+
+.lavanya6 h2 {
+  margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+.lavanya6 input[type="text"],
+.lavanya6 input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px; /* Add margin bottom between input fields */
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Light gray background for input fields */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for input fields */
+  transition: border-color 0.3s;
+}
+
+.lavanya6 input[type="text"]:focus,
+.lavanya6 input[type="password"]:focus {
+  border-color: #007bff; /* Border color on focus */
+  outline: none;
+}
+
+.lavanya6 button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Blue background for the button */
+  border: none;
+  border-radius: 6px;
+  color: #ffffff; /* White text color */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lavanya6 button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

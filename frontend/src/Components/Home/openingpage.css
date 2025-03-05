@@ -1,0 +1,157 @@
+/* Container for the slideshow */
+.container.openingpage-slideshow-container {
+  background-color: #f0f4f8;
+  padding-top: 20px;
+  min-height: 100vh;
+}
+
+/* Styling for the Twitter title */
+.twitter-title {
+  color: white;
+  font-size: 2.9rem;
+}
+
+/* Highlight class for the title */
+.twitter-title .highlight {
+  color: red;
+}
+
+/* Header styling */
+.openingpage-header {
+  background-color: #1DA1F2;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Container for auth buttons */
+.openingpage-auth-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  gap: 1px; /* Adjusts spacing between the buttons */
+  flex-wrap: wrap;
+
+}
+
+/* Styling for auth buttons */
+.openingpage-auth-button {
+  padding: 4px 8px; /* Decreased padding */
+  font-size: 0.75rem; /* Decreased font size */
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+/* Primary button styling */
+.openingpage-auth-button.btn-primary {
+  background-color: #007bff;
+}
+
+/* Secondary button styling */
+.openingpage-auth-button.btn-secondary {
+  background-color: #007bff;
+}
+
+/* Hover effect for buttons */
+.openingpage-auth-button:hover {
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Slideshow container */
+.openingpage-slideshow {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Slides container */
+.openingpage-slides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Individual slide image */
+.openingpage-slide-image {
+  width: 100%;
+  height: 50vh;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Navigation buttons */
+.openingpage-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(172, 163, 163, 0.5);
+  color: #f5f7f8;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.openingpage-left-button {
+  left: 10px;
+}
+
+.openingpage-right-button {
+  right: 10px;
+}
+
+.openingpage-nav-button:hover {
+  background-color: rgba(108, 104, 104, 0.8);
+}
+
+/* Navigation circles */
+.openingpage-navigation-circles {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Individual circle */
+.openingpage-circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.openingpage-circle.openingpage-active {
+  background-color: black;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .openingpage-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .twitter-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .openingpage-auth-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+}

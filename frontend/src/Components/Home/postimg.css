@@ -1,0 +1,78 @@
+.ramya4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Reduced the height to 80vh */
+}
+
+.lavanya4 {
+  max-width: 800px; /* Increased max-width for the container */
+  width: 100%; /* Ensure it takes up the available width */
+  padding: 30px; /* Increased padding for more spacing */
+  background-color: #fffcfc;
+  border-radius: 12px; /* Increased border radius for a more rounded appearance */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+  margin: 20px; /* Added margin for better spacing */
+}
+
+.lavanya4 h2 {
+  font-size: 32px; /* Increased font size for the heading */
+  text-align: center;
+  margin-bottom: 25px; /* Increased margin */
+}
+
+.lavanya4 form > div {
+  margin-bottom: 25px; /* Increased margin between form groups */
+}
+
+.lavanya4 form > div label {
+  font-weight: bold;
+  margin-bottom: 10px; /* Adjusted margin */
+  display: block;
+}
+
+.lavanya4 input[type="text"],
+.lavanya4 input[type="url"],
+.lavanya4 input[type="number"],
+.lavanya4 textarea,
+.lavanya4 input[type="file"] {
+  width: calc(100% - 22px); /* Adjusted width to accommodate padding and border */
+  padding: 12px; /* Increased padding for inputs */
+  border: 1px solid #ced4da;
+  border-radius: 6px; /* Slightly increased border radius */
+  box-sizing: border-box;
+  background-color: #f9f9f9; /* Background color for input fields */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for input fields */
+  transition: border-color 0.3s;
+}
+
+.lavanya4 input[type="text"]:focus,
+.lavanya4 input[type="url"]:focus,
+.lavanya4 input[type="number"]:focus,
+.lavanya4 textarea:focus,
+.lavanya4 input[type="file"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.lavanya4 button {
+  width: 100%;
+  padding: 10px; /* Increased padding for button */
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px; /* Slightly increased border radius */
+  color: #ffffff;
+  font-size: 20px; /* Increased font size for button text */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.lavanya4 button:hover {
+  background-color: #0056b3;
+}
+
+.lavanya4 p {
+  text-align: center;
+  margin-top: 25px; /* Adjusted top margin */
+}
+
