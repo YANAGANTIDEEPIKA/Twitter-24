@@ -1,9 +1,12 @@
-
 Twitter-24: Region-Based E-commerce Platform
+
+
 📌 Project Overview
 Twitter-24 is an innovative e-commerce platform designed to offer regionally famous products. Unlike traditional e-commerce sites that list all types of products, Twitter-24 focuses solely on items that are well-known in specific locations, ensuring better quality and lower prices.
 
 Sellers can list products after admin approval, ensuring authenticity, and buyers can contact sellers directly through Instagram, WhatsApp, or other communication channels, as the platform does not include an integrated payment system.
+
+
 🔹 Features & Functionalities
 1️⃣ User Management
 Users can sign up and log in to access the platform.
