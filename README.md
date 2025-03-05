@@ -8,6 +8,8 @@ Sellers can list products after admin approval, ensuring authenticity, and buyer
 
 
 🔹 Features & Functionalities
+
+
 1️⃣ User Management
 Users can sign up and log in to access the platform.
 Once logged in, they can browse products on the homepage.
